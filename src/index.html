@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehículos de Calidad</title>
+    <link rel="stylesheet" href="css/style.css">
+       
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="header-bar">
+            ¡DESCUENTOS INCREÍBLES EN VEHÍCULOS SELECCIONADOS!
+        </div>
+        <nav>
+            <div class="logo">Logo</div>
+            <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Tiendas</a></li>
+                <li><a href="#">Marcas</a></li>
+                <li><a href="#">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Vehículos de Calidad</h1>
+            <p>Encuentra el auto perfecto en Bolivia. ¡Tu satisfacción es nuestra misión y compromiso!</p>
+            <button>Comprar</button>
+        </div>
+    </section>
+
+    <!-- Vehículos Disponibles -->
+    <section class="vehicles">
+        <h2>Vehículos Disponibles</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="/src/img/autos/azul/azul1.jpg" alt="Marcas de Autos">
+                <h3>Marcas de Autos</h3>
+                <p>Explora nuestra amplia selección de marcas de autos.</p>
+                <button>Ver</button>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Modelos Destacados">
+                <h3>Modelos Destacados</h3>
+                <p>Descubre los modelos más populares y solicitados hoy.</p>
+                <button>Ver</button>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Ofertas Especiales">
+                <h3>Ofertas Especiales</h3>
+                <p>Aprovecha nuestras ofertas exclusivas en vehículos seleccionados.</p>
+                <button>Ver</button>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Ofertas Especiales">
+                <h3>Ofertas Especiales</h3>
+                <p>Aprovecha nuestras ofertas exclusivas en vehículos seleccionados.</p>
+                <button>Ver</button>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Ofertas Especiales">
+                <h3>Ofertas Especiales</h3>
+                <p>Aprovecha nuestras ofertas exclusivas en vehículos seleccionados.</p>
+                <button>Ver</button>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Ofertas Especiales">
+                <h3>Ofertas Especiales</h3>
+                <p>Aprovecha nuestras ofertas exclusivas en vehículos seleccionados.</p>
+                <button>Ver</button>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Ofertas Especiales">
+                <h3>Ofertas Especiales</h3>
+                <p>Aprovecha nuestras ofertas exclusivas en vehículos seleccionados.</p>
+                <button>Ver</button>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Ofertas Especiales">
+                <h3>Ofertas Especiales</h3>
+                <p>Aprovecha nuestras ofertas exclusivas en vehículos seleccionados.</p>
+                <button>Ver</button>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Ofertas Especiales">
+                <h3>Ofertas Especiales</h3>
+                <p>Aprovecha nuestras ofertas exclusivas en vehículos seleccionados.</p>
+                <button>Ver</button>
+            </div>
+
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Ofertas Especiales">
+                <h3>Ofertas Especiales</h3>
+                <p>Aprovecha nuestras ofertas exclusivas en vehículos seleccionados.</p>
+                <button>Ver</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="car-grid">
+        <!-- Productos -->
+        <div class="car" data-name="Vehículo de calidad garantizada" data-price="10000">
+            <img src="/src/img/autos/azul/azul1.jpeg" alt="Auto 1">
+            <h2>Vehículo de calidad garantizada</h2>
+            <p>$10,000.00</p>
+            <button class="add-to-cart">Añadir al carrito</button>
+        </div>
+
+        <div class="car" data-name="Vehículo de calidad en Bolivia" data-price="10">
+            <img src="img/car2.jpg" alt="Auto 2">
+            <h2>Vehículo de calidad en Bolivia</h2>
+            <p>$10.00</p>
+            <button class="add-to-cart">Añadir al carrito</button>
+        </div>
+
+        <div class="car" data-name="Vehículo de alta calidad" data-price="20000">
+            <img src="img/car3.jpg" alt="Auto 3">
+            <h2>Vehículo de alta calidad</h2>
+            <p>$20,000.00</p>
+            <button class="add-to-cart">Añadir al carrito</button>
+        </div>
+
+        <div class="car" data-name="Vehículos para todos los gustos" data-price="50000">
+            <img src="img/car4.jpg" alt="Auto 4">
+            <h2>Vehículos para todos los gustos</h2>
+            <p>$50,000.00</p>
+            <button class="add-to-cart">Añadir al carrito</button>
+        </div>
+    </section>
+
+    <!-- Carrito Modal -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <h2>Carrito de Compras</h2>
+            <ul id="cart-items"></ul>
+            <h3>Total: $<span id="total">0</span></h3>
+            <button id="close-cart">Cerrar</button>
+        </div>
+    </div>
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- Sección principal -->
+ <section class="main-header">
+    <h1>Tu tienda de vehículos en Bolivia</h1>
+    <p>En Bolivia Pedidos Vehículos, nuestra misión es satisfacer tus necesidades automotrices en todos los departamentos.</p>
+    <div class="metrics">
+        <div>150+ <span>Calidad garantizada</span></div>
+        <div>15 <span>Clientes satisfechos</span></div>
+    </div>
+</section>
+
+<!-- Imagen central -->
+<section class="center-image">
+    <img src="/src/img/autos/rojinegro/roji1.jpeg" alt="Concesionario de autos">
+</section>
+
+<!-- Testimonios -->
+<section class="testimonials">
+    <div class="testimonial-content">
+        <div class="testimonial">
+            <p>★★★★★<br>Excelente servicio, encontré el vehículo que buscaba y el proceso fue muy sencillo y rápido.</p>
+            <span>Juan Pérez</span>
+        </div>
+        <div class="testimonial">
+            <p>★★★★★<br>La variedad de marcas es impresionante, definitivamente volveré a comprar aquí en el futuro.</p>
+            <span>María López</span>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Compromiso</h3>
+            <p>Satisfacción del cliente en cada compra realizada.</p>
+            <div class="social-icons">
+                <a href="#">&#x1F426;</a>
+                <a href="#">&#x1F4F7;</a>
+                <a href="#">&#127909;</a>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h3>CAUDAO</h3>
+            <p>+591-123-456-789</p>
+            <p>contacto@boliviapedidos.com</p>
+        </div>
+        <div class="footer-section footer-form">
+            <h3>Variedad</h3>
+            <form>
+                <input type="email" placeholder="Correo electrónico del cliente" required>
+                <button type="submit">Enviar consulta de vehículo</button>
+            </form>
+        </div>
+    </div>
+    <p>&copy; 2024, All rights reserved.</p>
+</footer>
+
+
+
+   
+</body>
+
+</html>
