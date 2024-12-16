@@ -53,8 +53,13 @@ nav {
 
 /* Sección Hero */
 .hero {
+<<<<<<< HEAD
     background: url('https://via.placeholder.com/1200x500') no-repeat center center/cover;
     color: transparent;
+=======
+    background: url('../img/autos/rojinegro/roji1.jpeg') no-repeat center center/cover;
+    color: #fff;
+>>>>>>> 7fad70d (Primer commit del nuevo proyecto)
     padding: 100px 20px;
     display: flex;
     align-items: center;
@@ -89,6 +94,15 @@ nav {
     background-color: #1f3c7b;
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+>>>>>>> 7fad70d (Primer commit del nuevo proyecto)
 /* Vehículos Disponibles */
 .vehicles {
     text-align: center;
@@ -258,7 +272,11 @@ nav {
 }
 
 .testimonial {
+<<<<<<< HEAD
     background: url('https://via.placeholder.com/400x200') no-repeat center center/cover;
+=======
+    background: url('../img/autos/recursos/imagen\ 7.jpg') no-repeat center center/cover;
+>>>>>>> 7fad70d (Primer commit del nuevo proyecto)
     color: #fff;
     padding: 50px 20px;
     max-width: 400px;
@@ -431,3 +449,61 @@ ul {
         text-align: center;
     }
 }
+<<<<<<< HEAD
+=======
+
+
+.logo {
+    height: 80px; /* Define la altura máxima para el contenedor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Oculta cualquier parte de la imagen que exceda la altura */
+}
+
+.logo img {
+    height: 100%; /* La imagen ocupará el 100% de la altura del contenedor */
+    width: auto; /* Mantiene las proporciones de la imagen */
+}
+
+
+
+
+
+
+/* Estilos básicos para el carrito */
+.modal {
+    display: none; /* Ocultar por defecto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+>>>>>>> 7fad70d (Primer commit del nuevo proyecto)

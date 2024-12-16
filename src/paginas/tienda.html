@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+     <!-- Encabezado -->
+     <header>
+        <div class="header-bar">
+            ¡DESCUENTOS INCREÍBLES EN VEHÍCULOS SELECCIONADOS!
+        </div>
+        <nav>
+            <div class="logo" alt>
+                <img src="../img/autos/logo/rojo/logo.png" alt="Marcas de Autos">
+            </div>
+            <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+            <ul class="nav-links" id="navLinks">
+                <a href="../../index.html">Volver al Inicio</a>
+
+                <li><a href="../src/paginas/tienda.html">Tiendas</a></li>
+                <li><a href="#">Marcas</a></li>
+                <li><a href="#">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <section class="car-grid">
+        <!-- Productos -->
+        <div class="car" data-name="Vehículo de calidad garantizada" data-price="10000">
+            <img src="../img/autos/azul/azul1.jpeg" alt="Auto 1">
+            <h2>marca: toyota
+                modelo: rav4
+                año: 2019
+                combustible: gasolina
+                motor: 2.0
+                caja : mecánica
+                color: azul</h2>
+            <p>80.000bs</p>
+            <button class="add-to-cart">Añadir al carrito</button>
+        </div>
+
+        <div class="car" data-name="Vehículo de calidad en Bolivia" data-price="10">
+            <img src="../img/autos/blanco/blanco1.jpeg" alt="Auto 2">
+            <h2>marca: toyota
+                madelo: yaris
+                año: 2019 
+                combustible: gasolina
+                motor 1.5
+                caja: mecanica
+                color:  blanco</h2>
+            <p>60.000bs</p>
+            <button class="add-to-cart">Añadir al carrito</button>
+        </div>
+
+        <div class="car" data-name="Vehículo de alta calidad" data-price="20000">
+            <img src="../img/autos/guindo/guindo1.jpeg" alt="Auto 3">
+            <h2>marca: toyota
+                modelo: tercel
+                año: 1998
+                combustible: gasolina
+                motor: 1.5
+                caja: mecanica
+                color: rojo</h2>
+            <p>30.000bs</p>
+            <button class="add-to-cart">Añadir al carrito</button>
+        </div>
+
+        <div class="car" data-name="Vehículos para todos los gustos" data-price="50000">
+            <img src="../img/autos/negro/negro1.jpeg" alt="Auto 4">
+            <h2>marca: Hyunday
+                modelo: accent
+                año: 2016
+                combustible: gasolina
+                motor: 1.8
+                caja: mecanica
+                color:  negro</h2>
+            <p>48.000bs</p>
+            <button class="add-to-cart">Añadir al carrito</button>
+        </div>
+        
+        <div class="car" data-name="Vehículos para todos los gustos" data-price="50000">
+            <img src="../img/autos/plomo/plomo1.jpg" alt="Auto 4">
+            <h2>Vehículos para todos los gustos</h2>
+            <p>$50,000.00</p>
+            <button class="add-to-cart">Añadir al carrito</button>
+        </div>
+        
+        <div class="car" data-name="Vehículos para todos los gustos" data-price="50000">
+            <img src="../img/autos/plomo2/plo1.jpeg" alt="Auto 4">
+            <h2>Vehículos para todos los gustos</h2>
+            <p>$50,000.00</p>
+            <button class="add-to-cart">Añadir al carrito</button>
+        </div>
+        
+        <div class="car" data-name="Vehículos para todos los gustos" data-price="50000">
+            <img src="../img/autos/rojinegro/roji1.jpeg" alt="Auto 4">
+            <h2>Vehículos para todos los gustos</h2>
+            <p>$50,000.00</p>
+            <button class="add-to-cart">Añadir al carrito</button>
+        </div>
+        
+        <div class="car" data-name="Vehículos para todos los gustos" data-price="50000">
+            <img src="img/car4.jpg" alt="Auto 4">
+            <h2>Vehículos para todos los gustos</h2>
+            <p>$50,000.00</p>
+            <button class="add-to-cart">Añadir al carrito</button>
+        </div>
+
+        
+        <div class="car" data-name="Vehículos para todos los gustos" data-price="50000">
+            <img src="img/car4.jpg" alt="Auto 4">
+            <h2>Vehículos para todos los gustos</h2>
+            <p>$50,000.00</p>
+            <button class="add-to-cart">Añadir al carrito</button>
+        </div>
+        
+        <div class="car" data-name="Vehículos para todos los gustos" data-price="50000">
+            <img src="img/car4.jpg" alt="Auto 4">
+            <h2>Vehículos para todos los gustos</h2>
+            <p>$50,000.00</p>
+            <button class="add-to-cart">Añadir al carrito</button>
+        </div>
+        
+        <div class="car" data-name="Vehículos para todos los gustos" data-price="50000">
+            <img src="img/car4.jpg" alt="Auto 4">
+            <h2>Vehículos para todos los gustos</h2>
+            <p>$50,000.00</p>
+            <button class="add-to-cart">Añadir al carrito</button>
+        </div>
+        
+        <div class="car" data-name="Vehículos para todos los gustos" data-price="50000">
+            <img src="img/car4.jpg" alt="Auto 4">
+            <h2>Vehículos para todos los gustos</h2>
+            <p>$50,000.00</p>
+            <button class="add-to-cart">Añadir al carrito</button>
+        </div>
+        
+        <div class="car" data-name="Vehículos para todos los gustos" data-price="50000">
+            <img src="img/car4.jpg" alt="Auto 4">
+            <h2>Vehículos para todos los gustos</h2>
+            <p>$50,000.00</p>
+            <button class="add-to-cart">Añadir al carrito</button>
+        </div>
+        
+        <div class="car" data-name="Vehículos para todos los gustos" data-price="50000">
+            <img src="img/car4.jpg" alt="Auto 4">
+            <h2>Vehículos para todos los gustos</h2>
+            <p>$50,000.00</p>
+            <button class="add-to-cart">Añadir al carrito</button>
+        </div>
+        
+        <div class="car" data-name="Vehículos para todos los gustos" data-price="50000">
+            <img src="img/car4.jpg" alt="Auto 4">
+            <h2>Vehículos para todos los gustos</h2>
+            <p>$50,000.00</p>
+            <button class="add-to-cart">Añadir al carrito</button>
+        </div>
+
+    </section>
+
+
+    <!-- Carrito Modal -->
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <h2>Carrito de Compras</h2>
+            <ul id="cart-items"></ul>
+            <h3>Total: $<span id="total">0</span></h3>
+            <button id="close-cart">Cerrar</button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Compromiso</h3>
+            <p>Satisfacción del cliente en cada compra realizada.</p>
+            <div class="social-icons">
+                <a href="#">&#x1F426;</a>
+                <a href="#">&#x1F4F7;</a>
+                <a href="#">&#127909;</a>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h3>CAUDAO</h3>
+            <p>+591-123-456-789</p>
+            <p>contacto@boliviapedidos.com</p>
+        </div>
+        <div class="footer-section footer-form">
+            <h3>Variedad</h3>
+            <form>
+                <input type="email" placeholder="Correo electrónico del cliente" required>
+                <button type="submit">Enviar consulta de vehículo</button>
+            </form>
+        </div>
+    </div>
+    <p>&copy; 2024, All rights reserved.</p>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
