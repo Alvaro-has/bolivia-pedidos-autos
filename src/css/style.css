@@ -53,13 +53,10 @@ nav {
 
 /* Sección Hero */
 .hero {
-<<<<<<< HEAD
-    background: url('https://via.placeholder.com/1200x500') no-repeat center center/cover;
-    color: transparent;
-=======
+
     background: url('../img/autos/rojinegro/roji1.jpeg') no-repeat center center/cover;
     color: #fff;
->>>>>>> 7fad70d (Primer commit del nuevo proyecto)
+
     padding: 100px 20px;
     display: flex;
     align-items: center;
@@ -94,15 +91,11 @@ nav {
     background-color: #1f3c7b;
 }
 
-<<<<<<< HEAD
-=======
 
 
 
 
 
-
->>>>>>> 7fad70d (Primer commit del nuevo proyecto)
 /* Vehículos Disponibles */
 .vehicles {
     text-align: center;
@@ -272,11 +265,9 @@ nav {
 }
 
 .testimonial {
-<<<<<<< HEAD
-    background: url('https://via.placeholder.com/400x200') no-repeat center center/cover;
-=======
+
     background: url('../img/autos/recursos/imagen\ 7.jpg') no-repeat center center/cover;
->>>>>>> 7fad70d (Primer commit del nuevo proyecto)
+
     color: #fff;
     padding: 50px 20px;
     max-width: 400px;
@@ -449,8 +440,7 @@ ul {
         text-align: center;
     }
 }
-<<<<<<< HEAD
-=======
+
 
 
 .logo {
@@ -506,4 +496,3 @@ button {
 button:hover {
     background-color: #45a049;
 }
->>>>>>> 7fad70d (Primer commit del nuevo proyecto)
